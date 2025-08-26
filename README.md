@@ -23,8 +23,11 @@ This beginner-friendly project allows users to create, edit, and delete notes wi
 
 ## 📂 Project Structure  
 notes-app/
+
 │── index.html # Main HTML file
+
 │── style.css # Styling (Glassmorphism UI)
+
 │── script.js # JavaScript functionality
 
 
@@ -32,7 +35,7 @@ notes-app/
 
 ## 📸 Screenshots  
 ### Main UI  
-👉 project Screenshot: [screenshot.png]  
+![Notes App UI](screenshots/notes-app.png) 
 
 ---
 
