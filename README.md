@@ -35,7 +35,7 @@ notes-app/
 
 ## 📸 Screenshots  
 ### Main UI  
-![Notes App UI](screenshots/notes-app.png) 
+![Notes App UI](screenshot.png) 
 
 ---
 
