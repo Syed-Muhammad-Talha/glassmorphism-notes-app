@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, .header, .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+body{
+    background: linear-gradient(to right, #00c8d6, #003539);
+    height: 100vh;
+}
+
+.container{
+    background-color: #00000038;
+    box-shadow: 0px 0px 10px 2px #ffffff33;
+    width: 51%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.header{
+    background-color: #00000038;
+    justify-content: space-around;
+    padding: 2rem 0;
+    box-shadow: 0px 0px 10px 0px #ffffff33;
+}
+
+.heading{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.add-task{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #03eeff;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    color: #03eeff;
+    padding: 0.5rem;
+}
+
+.add-task:hover{
+    background-color: #03eeff;
+    color: #003539;
+    transition: 0.5s all ease;
+}
+
+.fa-circle-plus{
+    margin-right: 10px;
+}
+
+
+.task-container{
+    position: relative;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap:wrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 345px;
+    padding: 0.5rem;
+}
+
+.task-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.task-container::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 8px;
+}
+
+.task-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #1cefff, #c0c0aa);
+    border-radius: 8px;
+}
+
+.task-container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #18d0db, #a8a89a);
+}
+
+.input-box{
+    height: 150px;
+    width: 300px;
+    padding: 1rem;
+    outline: none;
+    border: 2px solid #cccccc;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: #ffffff;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+button.del-btn{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: -40px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: #ff5757;
+    background: transparent;
+}
+
+
